@@ -6,7 +6,7 @@ function HeroSection() {
         Empowering Africa&apos;s Future Unlocking Bitcoin&apos;s Potential, One
         Course at a Time
       </h1>
-      <button className="border-primaryColor text-secondaryDark inline-block flex justify-center gap-x-10 rounded-[50px] border-[1.5px] border-solid py-5 text-base font-[500]">
+      <button className="border-primaryColor text-secondaryDark inline-block justify-center gap-x-10 rounded-[50px] border-[1.5px] border-solid px-[43.5px] py-5 text-base font-[500]">
         Get started <img src={rightArrow} alt="" />
       </button>
     </div>
