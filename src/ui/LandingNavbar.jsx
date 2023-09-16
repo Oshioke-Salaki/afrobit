@@ -1,5 +1,6 @@
 import Logo from "./Logo";
 import NavbarItem from "./NavbarItem";
+import avatar from "../assets/avatar.png";
 
 function LandingNavbar() {
   return (
@@ -10,7 +11,7 @@ function LandingNavbar() {
         <NavbarItem>Communities</NavbarItem>
         <NavbarItem>Bounties</NavbarItem>
       </ul>
-      <img src="" alt="" />
+      <img src={avatar} alt="" />
     </nav>
   );
 }
